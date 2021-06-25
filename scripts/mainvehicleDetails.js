@@ -41,7 +41,7 @@ const deleterow = (e)=>{
 
 document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById('IncomingCar').addEventListener('click', ()=>{
-        window.location.href = '../pages/IncomingVehicle.php'
+        window.location.href = '../pages/IncomingVehicle.html'
     })
     creatTable()
     

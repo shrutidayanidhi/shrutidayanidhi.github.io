@@ -47,7 +47,7 @@ const issueTicket = async (ev)=>{
     }
     document.forms[0].reset();
     // console.log(slots)
-    window.location.href = '../pages/mainvehicleDetails.php'
+    window.location.href = '../pages/mainvehicleDetails.html'
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{

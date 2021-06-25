@@ -6,7 +6,7 @@ const createSlot = (e)=>{
     document.forms[0].reset();
 
     localStorage.setItem('slots', slots);
-    window.location.href = '../pages/mainvehicleDetails.php'
+    window.location.href = '../pages/mainvehicleDetails.html'
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{
